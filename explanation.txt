@@ -1,0 +1,62 @@
+HTML ELEMENT EXPLANATION:
+
+1. <h1> to <h6>:
+   These are heading tags used to define headings of different levels. 
+   <h1> is the most important (main title), and <h6> is the least. 
+   I used all six to show hierarchy and structure clearly.
+
+2. <nav> and <ul>/<li>:
+   <nav> defines a block of navigation links. 
+   Inside it, <ul> (unordered list) and <li> (list items) create a menu of links to other pages.
+
+3. <a href="...">:
+   The anchor tag creates hyperlinks. It’s used for internal navigation (between pages) and external resources .
+
+4. <ul> and <ol>:
+   <ul> is used to list my skills without any particular order.
+   <ol> is used to list my educational background in a ordered manner.
+
+5. <img src="" alt="">:
+   This element displays an image. The alt attribute provides alternative text if the image fails to load or for screen readers.
+
+6. <table>:
+   Used to display my projects/work experience in a structured tabular format with rows and columns.
+
+7. <p>:
+   Paragraph tag used for writing about myself.
+
+8. <form>:
+   The main wrapper for all form fields used in the contact page.
+
+9. <input> (text, email, tel, checkbox, radio, submit):
+   - type="text" for entering the name
+   - type="email" ensures valid email format
+   - type="tel" allows phone number input
+   - type="checkbox" allows multiple preferred contact methods to be selected
+   - type="radio" is used to choose one inquiry type (only one can be selected)
+   - type="submit" creates a button to send the form
+
+10. <textarea>:
+    Allows multi-line text input for the message field.
+
+11. <fieldset> and <legend>:
+    Group related inputs (like checkboxes and radio buttons) together to improve accessibility and structure.
+
+REASONS FOR SPECIFIC INPUT TYPES:
+
+- I used "text" for name as it accepts general text.
+- "email" input provides built-in validation for correct email formatting.
+- "tel" is ideal for phone numbers and optimizes mobile keyboard layout.
+- "checkbox" allows selecting more than one contact method.
+- "radio" ensures only one inquiry type is chosen.
+- "submit" is necessary to send the form data.
+
+NAVIGATION STRUCTURE:
+
+The <nav> element contains a <ul> (unordered list) of <li> elements, each with an <a> tag.
+This structure links to:
+- portfolio.html (Home)
+- about.html (About)
+- contact.html (Contact)
+
+This allows users to easily move between the main pages of the site, improving usability.
